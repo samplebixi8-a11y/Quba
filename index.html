@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Jadtqba Hospitality | Al Madinah</title>
+<meta content="Experience spiritual tranquility and premium comfort at Jadtqba, your peaceful sanctuary in Al Madinah." name="description"/>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Playfair+Display:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-primary-fixed-variant": "#653d1e",
+                    "primary-fixed": "#ffdcc5",
+                    "secondary": "#735c00",
+                    "outline": "#83746b",
+                    "surface-bright": "#fdf8f6",
+                    "surface-container": "#f2edeb",
+                    "tertiary-fixed": "#e9e2d7",
+                    "outline-variant": "#d5c3b8",
+                    "on-surface-variant": "#51443c",
+                    "on-surface": "#1c1b1a",
+                    "on-secondary-fixed-variant": "#574500",
+                    "on-primary-fixed": "#301400",
+                    "primary-fixed-dim": "#f4bb92",
+                    "error": "#ba1a1a",
+                    "surface-container-low": "#f7f3f0",
+                    "on-primary": "#ffffff",
+                    "inverse-primary": "#f4bb92",
+                    "on-tertiary-fixed-variant": "#4a463f",
+                    "inverse-on-surface": "#f4f0ee",
+                    "primary": "#6f4627",
+                    "on-secondary": "#ffffff",
+                    "on-secondary-fixed": "#241a00",
+                    "on-error-container": "#93000a",
+                    "surface-container-highest": "#e6e2df",
+                    "secondary-fixed": "#ffe088",
+                    "on-primary-container": "#ffe3d1",
+                    "on-tertiary-fixed": "#1e1b15",
+                    "surface-tint": "#805533",
+                    "on-tertiary": "#ffffff",
+                    "on-tertiary-container": "#eee6dc",
+                    "background": "#fdf8f6",
+                    "primary-container": "#8b5e3c",
+                    "surface-variant": "#e6e2df",
+                    "surface-dim": "#ddd9d7",
+                    "surface-container-lowest": "#ffffff",
+                    "on-error": "#ffffff",
+                    "on-background": "#1c1b1a",
+                    "inverse-surface": "#31302f",
+                    "secondary-fixed-dim": "#e9c349",
+                    "secondary-container": "#fed65b",
+                    "tertiary": "#534f48",
+                    "on-secondary-container": "#745c00",
+                    "tertiary-fixed-dim": "#ccc6bc",
+                    "error-container": "#ffdad6",
+                    "surface-container-high": "#ece7e5",
+                    "surface": "#fdf8f6",
+                    "tertiary-container": "#6c675f"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "margin-desktop": "80px",
+                    "base": "8px",
+                    "section-desktop": "120px",
+                    "gutter": "24px",
+                    "section-mobile": "64px",
+                    "margin-mobile": "20px"
+            },
+            "fontFamily": {
+                    "title-lg": ["Inter"],
+                    "display-lg": ["Playfair Display"],
+                    "display-lg-mobile": ["Playfair Display"],
+                    "headline-lg": ["Playfair Display"],
+                    "label-sm": ["Inter"],
+                    "headline-md": ["Playfair Display"],
+                    "label-lg": ["Inter"],
+                    "body-md": ["Inter"],
+                    "body-lg": ["Inter"]
+            },
+            "fontSize": {
+                    "title-lg": ["20px", {"lineHeight": "28px", "fontWeight": "600"}],
+                    "display-lg": ["56px", {"lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "display-lg-mobile": ["36px", {"lineHeight": "44px", "fontWeight": "700"}],
+                    "headline-lg": ["40px", {"lineHeight": "48px", "fontWeight": "600"}],
+                    "label-sm": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                    "headline-md": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
+                    "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        .text-shadow-sm {
+            text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .booking-gradient {
+            background: linear-gradient(to right, #D4AF37, #B8860B);
+        }
+        .hero-zoom {
+            animation: zoom 20s infinite alternate;
+        }
+        @keyframes zoom {
+            from { transform: scale(1); }
+            to { transform: scale(1.1); }
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body-md overflow-x-hidden">
+<!-- TopNavBar -->
+<header class="fixed top-0 w-full z-50 bg-surface/90 dark:bg-surface-dim/90 backdrop-blur-md shadow-sm border-b border-outline-variant/30">
+<nav class="flex justify-between items-center px-margin-desktop py-4 mx-auto w-full max-w-7xl">
+<div class="flex items-center gap-8">
+<a class="font-display-lg text-headline-md tracking-tight text-primary dark:text-primary-fixed" href="#">Jadtqba</a>
+<div class="hidden md:flex gap-6">
+<a class="font-title-lg text-title-lg text-primary font-semibold border-b-2 border-secondary" href="#properties">Properties</a>
+<a class="font-title-lg text-title-lg text-on-surface-variant hover:text-primary transition-colors" href="#amenities">Amenities</a>
+<a class="font-title-lg text-title-lg text-on-surface-variant hover:text-primary transition-colors" href="#location">Location</a>
+<a class="font-title-lg text-title-lg text-on-surface-variant hover:text-primary transition-colors" href="#contact">Contact Us</a>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="hidden sm:flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">language</span>
+<span class="material-symbols-outlined text-primary">account_circle</span>
+</div>
+<a class="bg-secondary-container text-on-secondary-container px-6 py-2 rounded-lg font-label-lg hover:bg-secondary-fixed transition-all scale-95 active:scale-90 flex items-center gap-2" href="https://wa.me/966544920944" target="_blank">
+                    Book via WhatsApp
+                </a>
+</div>
+</nav>
+</header>
+<!-- Hero Section -->
+<section class="relative h-screen flex items-center justify-center overflow-hidden">
+<div class="absolute inset-0 z-0">
+<div class="absolute inset-0 bg-black/30 z-10"></div>
+<img alt="Window seating" class="hero-zoom w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD4lGz52pw1F91LCaQ9j5HUeBqtYKL39gajfn0ecVJaMIUs0ohys3XMZw3yfGzjfosWtL25s5Zc6iYjxdKdXen2Cpb8K7n_IFWGWOlcXdxmmjo7mDPiPFiFvkn2isrlcJsnLuPINGeGcWJAauok56eAzsGuN2mpG73u-6M9EgdEBSVC-X-zC1hfaHbJabMLo53hNmJ0IqDMj88GtH682MHYBrXiSB7z4PybKRXn30JEqz7GeAkwomecULeGZWAFQ7nz9xBPnR4NYeN-"/>
+</div>
+<div class="relative z-20 text-center px-margin-mobile md:px-margin-desktop max-w-4xl">
+<h1 class="font-display-lg text-display-lg-mobile md:text-display-lg text-white mb-6 text-shadow-sm">Your Peaceful Sanctuary in Al Madinah</h1>
+<p class="font-body-lg text-body-lg text-white/90 mb-10 max-w-2xl mx-auto">Discover a blend of spiritual tranquility and architectural precision just moments away from the Prophet's Mosque.</p>
+<!-- Booking Widget -->
+<div class="bg-surface-bright/95 backdrop-blur-sm p-4 md:p-6 rounded-xl shadow-2xl flex flex-col md:flex-row gap-4 items-end border border-outline-variant/30">
+<div class="w-full text-left">
+<label class="block font-label-sm text-on-surface-variant mb-2">Check In</label>
+<input class="w-full bg-surface-container-low border-b border-outline p-2 focus:border-primary outline-none text-body-md" type="date"/>
+</div>
+<div class="w-full text-left">
+<label class="block font-label-sm text-on-surface-variant mb-2">Check Out</label>
+<input class="w-full bg-surface-container-low border-b border-outline p-2 focus:border-primary outline-none text-body-md" type="date"/>
+</div>
+<div class="w-full text-left">
+<label class="block font-label-sm text-on-surface-variant mb-2">Guests</label>
+<select class="w-full bg-surface-container-low border-b border-outline p-2 focus:border-primary outline-none text-body-md">
+<option>1 Guest</option>
+<option selected="">2 Guests</option>
+<option>3 Guests</option>
+<option>4+ Guests</option>
+</select>
+</div>
+<button class="w-full md:w-auto bg-primary text-on-primary px-10 py-3 rounded-lg font-title-lg hover:bg-primary-container transition-all whitespace-nowrap">
+                    Check Availability
+                </button>
+</div>
+</div>
+</section>
+<!-- Room Gallery & Bento Grid -->
+<section class="py-section-desktop px-margin-desktop max-w-7xl mx-auto" id="amenities">
+<div class="text-center mb-16">
+<h2 class="font-headline-lg text-headline-lg text-primary mb-4">Curated Comfort</h2>
+<div class="w-24 h-1 bg-secondary-container mx-auto"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6 h-auto md:h-[800px]">
+<!-- Main Experience -->
+<div class="md:col-span-8 group relative overflow-hidden rounded-xl border border-outline-variant/30 shadow-sm hover:shadow-md transition-all">
+<img alt="Clean bed ambiance" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBCvGyNfoih2HqICbZR7KvymyHF7hgOJebXOIgr8eXD1eoh9zoACeVRTEqHw-sI7muvNs7_O1kmVRTXXjogvJwVFS-JIEQxGvZhC0w6BeLE9fdJVHJYqAwsnD4VR7wg8jaH3weGyBwtHfqOlfn_nBsScpKn90Dz3IOsCavEVDc8sK4antAeEdYXbNWa6xSYCxry5NY4peYbz2YNo8yNESI_4jGUM8xKu-puygB7Ryv0Lh1SSI2G6M4dJIvcGRhgGq9OV9Jc9RM0AFyD"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-8">
+<h3 class="font-headline-md text-headline-md text-white">Pure Ambiance</h3>
+<p class="font-body-md text-white/80 max-w-md">Warm lighting and premium linens designed for spiritual reflection and rest.</p>
+</div>
+<div class="absolute top-4 left-4 bg-surface-bright/90 backdrop-blur-sm px-4 py-1 rounded-full">
+<span class="font-label-sm text-primary uppercase tracking-widest">Atmosphere</span>
+</div>
+</div>
+<!-- Side Bento Column -->
+<div class="md:col-span-4 flex flex-col gap-6">
+<!-- Comfort & Living -->
+<div class="flex-1 group relative overflow-hidden rounded-xl border border-outline-variant/30 shadow-sm hover:shadow-md transition-all">
+<img alt="Tea and snacks" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAi3A5C_8zv4lyWslUGsoh2CFNnAA26fRru2tL7b9rXcs2W2v4L7xjrPzi1rz1espP9XnZhq7OEX9LyqqJaseKVIW-3oXK_ACR37pYh6605Y1Q8KpbvshTE09lJFphaYBWp-umF-ILvcONgcTW_e6_JecHY2B6wpJW9-g2BWjZmuqb0WbIkY4nL9G-wNWV2usPdIorHXOx80z3V9DjfW5VoGimlw9Fyoi5eYwyiwV316dUZFRNCXFHbMGkhBeMHT-lEB4v-jrlQI96D"/>
+<div class="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors"></div>
+<div class="absolute bottom-4 left-4 right-4">
+<div class="bg-surface-bright/95 p-4 rounded-lg shadow-lg">
+<h4 class="font-title-lg text-title-lg text-primary">Comfort &amp; Living</h4>
+<div class="flex gap-2 mt-2">
+<span class="bg-surface-container-highest px-2 py-1 rounded text-[10px] font-label-sm text-on-surface-variant">MINI BAR</span>
+<span class="bg-surface-container-highest px-2 py-1 rounded text-[10px] font-label-sm text-on-surface-variant">LOUNGE</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Appliances -->
+<div class="flex-1 group relative overflow-hidden rounded-xl border border-outline-variant/30 shadow-sm hover:shadow-md transition-all">
+<img alt="Room appliances" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCOcKsGMr1yoD-0LwC8TkLD_57KDKDm8YAkq0-d7dYfySHl6vxonXXD25UUeQInHTcxdsQP8xPt2MOshvaongDM-Bp6IqBI7ADBwj_jqAjQP_vJTHs95-YKbmt9kLI97PrruYo5uW58JGUYlILoc5pUWNV7yE_I_CYK07R8yQLtzjj5sqwjgV-N7N3iLto84PzYjrnRwx_PtCgKwmWZPH5N7FL1uHN12Ipb1ZnYIJYO3KrmdDfyshzdAxCYiENP3Q7_NgM2TgSql75U"/>
+<div class="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors"></div>
+<div class="absolute bottom-4 left-4 right-4">
+<div class="bg-surface-bright/95 p-4 rounded-lg shadow-lg">
+<h4 class="font-title-lg text-title-lg text-primary">Modern Essentials</h4>
+<p class="font-label-sm text-on-surface-variant mt-1">Microwave, Fridge &amp; Coffee Maker</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Direct Booking Banner -->
+<section class="bg-surface-container-high py-20 relative overflow-hidden">
+
+<div class="relative z-10 px-margin-desktop max-w-5xl mx-auto text-center">
+<h2 class="font-display-lg text-headline-lg md:text-display-lg text-primary mb-6">Experience Direct Excellence</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-10">Book directly with us for exclusive seasonal rates, late check-out options, and personalized concierge service.</p>
+<div class="flex flex-col sm:flex-row justify-center gap-6">
+<a class="bg-[#25D366] text-white px-10 py-4 rounded-xl font-title-lg shadow-xl hover:shadow-2xl transition-all flex items-center justify-center gap-3 scale-100 hover:scale-105" href="https://wa.me/966544920944" target="_blank">
+<span class="material-symbols-outlined text-3xl">chat</span>
+                    Message on WhatsApp
+                </a>
+<button class="bg-primary text-on-primary px-10 py-4 rounded-xl font-title-lg shadow-xl hover:shadow-2xl transition-all scale-100 hover:scale-105 border border-primary-fixed-dim">
+                    View Direct Rates
+                </button>
+</div>
+</div>
+</section>
+<!-- Location Section -->
+<section class="py-section-desktop px-margin-desktop max-w-7xl mx-auto" id="location">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+<div>
+<h3 class="font-headline-lg text-headline-lg text-primary mb-6">Prime Location</h3>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-8 leading-relaxed">
+                    Strategically located in the heart of Al Madinah, Jadtqba provides effortless access to spiritual landmarks and modern city conveniences. We are situated in the prestigious Ad Duwaymah district, ensuring a quiet retreat that remains connected to the city's pulse.
+                </p>
+<div class="space-y-4">
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-secondary mt-1">location_on</span>
+<p class="font-body-md text-on-surface">DMAH7452, 7452 Abdul Aziz Ibn Ahmad, 42315, Ad Duwaymah, Al Madinah Al Munawwarah 4557, Saudi Arabia</p>
+</div>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-secondary mt-1">call</span>
+<p class="font-body-md text-on-surface">+966 54 492 0944</p>
+</div>
+</div>
+</div>
+<div class="h-[450px] rounded-2xl overflow-hidden shadow-2xl border border-outline-variant/30">
+<div class="w-full h-full bg-surface-container flex items-center justify-center relative">
+<img alt="Map of Al Madinah" class="w-full h-full object-cover grayscale contrast-125 opacity-80" data-location="Al Madinah, Saudi Arabia" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB5nvlPFmGor3SXfr7Wj4QCW7QfUddFJR-50ibpl-w0rB4dl--DMN1jufxTAUoxGY7i1OkjvJsdzZE1ld4p1Bls9WJ8m-FCi8OOdFWI98NZXXPRdjuXCTqGTxTJbYUSS-6KBgRaxNyPCjGmHaTuH8byY45oHVCbW4qXJBqwzIJF6Nj94JuVFLDmWgnzBaNwPhkiTl3lgFYocjV651dnIoMbKpC4iXcUBq-BC1rY68B0mas6BLMatqrqWR1LP4CkPd07xZd9jLaqAuol"/>
+<div class="absolute inset-0 flex items-center justify-center">
+<div class="bg-primary p-4 rounded-full shadow-2xl animate-bounce">
+<span class="material-symbols-outlined text-white text-4xl">pin_drop</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-surface-container-highest dark:bg-inverse-surface w-full py-section-desktop mt-20">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter px-margin-desktop max-w-7xl mx-auto items-start">
+<div class="flex flex-col gap-4">
+<span class="font-display-lg text-title-lg text-primary">Jadtqba</span>
+<p class="font-body-md text-on-surface-variant">A sanctuary of spiritual peace and modern luxury in the heart of Al Madinah.</p>
+</div>
+<div class="flex flex-col gap-4">
+<h5 class="font-label-lg text-primary uppercase tracking-widest">Navigation</h5>
+<nav class="flex flex-col gap-2">
+<a class="font-body-md text-on-surface-variant hover:text-primary transition-colors" href="#">Home</a>
+<a class="font-body-md text-on-surface-variant hover:text-primary transition-colors" href="#amenities">Amenities</a>
+<a class="font-body-md text-on-surface-variant hover:text-primary transition-colors" href="#location">Location</a>
+</nav>
+</div>
+<div class="flex flex-col gap-4">
+<h5 class="font-label-lg text-primary uppercase tracking-widest">Support</h5>
+<nav class="flex flex-col gap-2">
+<a class="font-body-md text-on-surface-variant hover:text-primary transition-colors" href="#">Privacy Policy</a>
+<a class="font-body-md text-on-surface-variant hover:text-primary transition-colors" href="#">Terms of Service</a>
+<a class="font-body-md text-on-surface-variant hover:text-primary transition-colors" href="https://wa.me/966544920944">WhatsApp Support</a>
+</nav>
+</div>
+<div class="flex flex-col gap-4">
+<h5 class="font-label-lg text-primary uppercase tracking-widest">Follow Us</h5>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full bg-surface-variant flex items-center justify-center hover:bg-primary transition-all group" href="#">
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-white">language</span>
+</a>
+<a class="w-10 h-10 rounded-full bg-surface-variant flex items-center justify-center hover:bg-primary transition-all group" href="#">
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-white">public</span>
+</a>
+</div>
+</div>
+</div>
+<div class="border-t border-outline-variant/30 mt-16 pt-8 text-center px-margin-desktop max-w-7xl mx-auto">
+<p class="font-body-md text-on-surface-variant opacity-80">© 2024 Jadtqba Hospitality. All rights reserved.</p>
+</div>
+</footer>
+<script>
+        // Simple Scroll Effect for Header
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('shadow-md');
+                header.classList.remove('shadow-sm');
+            } else {
+                header.classList.add('shadow-sm');
+                header.classList.remove('shadow-md');
+            }
+        });
+
+        // Add smooth interaction to buttons
+        document.querySelectorAll('button, a').forEach(el => {
+            el.addEventListener('mousedown', () => el.classList.add('scale-95'));
+            el.addEventListener('mouseup', () => el.classList.remove('scale-95'));
+            el.addEventListener('mouseleave', () => el.classList.remove('scale-95'));
+        });
+    </script>
+</body></html>
